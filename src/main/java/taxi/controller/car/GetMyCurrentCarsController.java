@@ -16,7 +16,7 @@ import taxi.service.CarService;
 public class GetMyCurrentCarsController extends HttpServlet {
     private static final String DRIVER_ID = "driver_id";
     private static final String PATH = "/WEB-INF/views/cars/all.jsp";
-    private static final Injector injector = Injector.getInstance("mate");
+    private static final Injector injector = Injector.getInstance("taxi");
     private final CarService carService =
             (CarService) injector.getInstance(CarService.class);
 
