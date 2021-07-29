@@ -7,6 +7,7 @@
     <groupId>taxi.project</groupId>
     <artifactId>taxi</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
