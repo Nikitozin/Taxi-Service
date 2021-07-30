@@ -4,7 +4,7 @@
 
 The goal of this project is to create simple taxi service for drivers with authentication system. You can register new drivers, add new cars, add manufacturer what made it. Add cars to your drivers.  
 In project used N-tier architecture with:
-* DB layer
+* DB
 * DAO layer
 * Service layer
 * Controllers layer
